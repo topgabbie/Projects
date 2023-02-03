@@ -2,13 +2,13 @@
 ----
 # INSTALLING APACHE 2 AND UPDATING FIREWALL
 
-`sudo apt update`  
+*`sudo apt update`*  
 
 `sudo apt install apache2`
 
 `systemctl status apache2`
 
-                                      **output image below**
+                                    **output image below**
 
 ![Apache_status](Images/APACHE%20STATUS.png)
 
