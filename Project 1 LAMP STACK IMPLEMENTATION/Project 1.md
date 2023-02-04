@@ -74,4 +74,23 @@
 ![site_output](Images/Site%20output.png)
 
 
+# ENABLE PHP ON THE WEBSITE
+
+`sudo vim /etc/apache2/mods-enabled/dir.conf`
+
+**the configuration  below was pasted in projectlamp.conf**
+
+```
+<IfModule mod_dir.c>
+        #Change this:
+        #DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.htm
+        #To this:
+        DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
+</IfModule>
+```
+`sudo systemctl reload apache2`
+
+![php_output](Images/Php_output.png)
+
+                                        # END 
 
