@@ -51,7 +51,8 @@
 
 `sudo ls /etc/apache2/sites-available`
 
-**Output**
+                             **output image below**
+
 ![site-available](./Images/Sites%20available.PNG)
 
 `sudo a2ensite projectlamp`
@@ -60,14 +61,16 @@
 
 `sudo apache2ctl configtest`
 
-**output**
+                             **output image below**
+
 ![configTest](./Images/configtest%20output.PNG)
 
 `sudo systemctl reload apache2`
 
 `sudo echo 'Hello LAMP !!!' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectlamp/index.html`
 
-**output**
+                             **output image below**
+
 ![site_output](Images/Site%20output.png)
 
 
