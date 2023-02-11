@@ -24,7 +24,7 @@
 
 `sudo mysql_secure_installation`
 
-## INSTALLING PHP
+> ## INSTALLING PHP
 
 `sudo apt install php libapache2-mod-php php-mysql`
 
