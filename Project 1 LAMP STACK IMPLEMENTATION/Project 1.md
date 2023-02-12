@@ -71,7 +71,7 @@
 
                              **output image below**
 
-![site_output](Images/Site%20output.png)
+![Website_output](Images/Site%20output.png)
 
 
 # ENABLE PHP ON THE WEBSITE
